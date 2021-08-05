@@ -1,4 +1,5 @@
-package Solution;
+package BOJ;
+
 import java.util.Scanner;
 
 public class Main_11720 {
