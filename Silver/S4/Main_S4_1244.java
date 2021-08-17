@@ -8,7 +8,7 @@ import java.util.Scanner;
 // 여학생, 수의 좌우 대칭 -> 상태 change / 아닌경우 -> 해당변호만 change
 // 남학생 : 1, 여학생 : 2
 
-public class Main_1244 {
+public class Main_S4_1244 {
 
 	// 남학생인 경우
 	public static void boy(int n, int[] s) {

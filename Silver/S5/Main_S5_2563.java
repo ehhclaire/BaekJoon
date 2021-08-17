@@ -2,7 +2,7 @@ package BOJ;
 
 import java.util.Scanner;
 
-public class Main_2563 {
+public class Main_S5_2563 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

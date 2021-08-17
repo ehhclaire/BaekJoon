@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main_2178 {
+public class Main_S1_2178 {
 	static int N, M; // 미로 세로, 가로 길이
 	static int sr;	// 시작 노드의 x좌표
 	static int sc;	// 시작 노드의 y좌표
