@@ -13,7 +13,7 @@ public class Main_S4_10546 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
 		
-		// 시간초과 - 문자열과 replace()
+		// 1. 시간초과 - 문자열과 replace()
 //		String names = "";
 //		for(int i=0; i<N; i++) {
 //			names+=br.readLine();
@@ -23,7 +23,7 @@ public class Main_S4_10546 {
 //			names = names.replaceFirst(br.readLine() + " ", "");
 //		}
 		
-		// 시간 초과 - 배열 탐색
+		// 2. 시간 초과 - 배열 탐색
 //		String[] names = new String[N];
 //		for(int i=0; i<N; i++) {
 //			names[i] = br.readLine();
@@ -43,6 +43,7 @@ public class Main_S4_10546 {
 //			if(!name.equals("")) System.out.println(name);
 //		}
 		
+		// 3. HashMap 이용
 		// 마라토너 이름을 key 값으로 해당 이름을 가지는 마라토너 수를 value로 가지는 HashMap 생성
 		Map<String, Integer> map = new HashMap<String, Integer>();	
 		String loser = "";		// 배부른 사람
