@@ -34,12 +34,14 @@ public class Main_S4_12927 {
 			if(done) break;		// 현재 전구가 다 꺼져있다면 탈출	
 		}
 		
-		done = true;
-		// 마지막으로 전구 상태 탐색
-		for(int l : lights) {		
-			if(l=='Y') done=false; 
-		}
-		if(done) System.out.println(btn);	// 다 꺼져있다면 스위치를 누른 횟수 출력
-		else System.out.println(-1);		// 켜져있는게 존재한다면 -1 출력
+//		// 위의 코드가 어쨋든 전체 스위치 자리를 다 탐색할거라서
+//		// 다 못끄는 경우는 없게된다 따라서 아래 코드는 사실상 필요없다.
+//		done = true;
+//		// 마지막으로 전구 상태 탐색
+//		for(int l : lights) {		
+//			if(l=='Y') done=false; 
+//		}
+//		if(done) System.out.println(btn);	// 다 꺼져있다면 스위치를 누른 횟수 출력
+//		else System.out.println(-1);		// 켜져있는게 존재한다면 -1 출력
 	}
 }
