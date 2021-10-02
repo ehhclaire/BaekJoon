@@ -51,7 +51,7 @@ public class Main_S2_15663 {
 			for(int i=0; i<M; i++) {
 				sb.append(numbers[i]).append(" ");
 			}
-			set.add(sb.toString());
+			set.add(sb.toString());	// set을 이용하여 중복된 요소 제거
 			return;
 		}
 		
