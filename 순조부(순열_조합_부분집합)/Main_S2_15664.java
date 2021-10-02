@@ -44,12 +44,12 @@ public class Main_S2_15664 {
 
 	// 순열
 	private static void combination(int cnt, int start) {
-		if(cnt==M) {
+		if(cnt==M) {	// nCm
 			StringBuilder sb = new StringBuilder();
 			for(int i=0; i<M; i++) {
 				sb.append(numbers[i]).append(" ");
 			}
-			set.add(sb.toString());
+			set.add(sb.toString());	// set을 이용한 중복 요소 제거
 			return;
 		}
 		
