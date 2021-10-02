@@ -46,7 +46,7 @@ public class Main_S2_15663 {
 
 	// 순열
 	private static void permutation(int cnt) {
-		if(cnt==M) {
+		if(cnt==M) {	// nPm
 			StringBuilder sb = new StringBuilder();
 			for(int i=0; i<M; i++) {
 				sb.append(numbers[i]).append(" ");
