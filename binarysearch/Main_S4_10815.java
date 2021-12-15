@@ -11,7 +11,9 @@ public class Main_S4_10815 {
 	
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		br = new BufferedReader(new StringReader(src));
+//		br = new BufferedReader(new StringReader(src));
+		
+		StringBuilder sb = new StringBuilder();		// 출력을 위한 StringBuilder
 		
 		N = Integer.parseInt(br.readLine());
 		cards = new int[N];		// 상근이가 가진 숫자카드
@@ -26,8 +28,10 @@ public class Main_S4_10815 {
 		st = new StringTokenizer(br.readLine());
 		for(int i=0; i<M; i++) {
 			int num = Integer.parseInt(st.nextToken());		// 찾을 정수 입력 받기
-			System.out.print(binarySearch(num) + " ");		// 이분탐색 (BinarySearch)한 결과를 하나씩 출력
-		}		
+			sb.append(binarySearch(num));		// 이분탐색 (BinarySearch)한 결과를 하나씩 출력
+			sb.append(" ");
+		}	
+		System.out.println(sb.toString());
 	}
 	
 	// 이분 탐색
