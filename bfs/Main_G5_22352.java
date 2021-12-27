@@ -62,7 +62,6 @@ public class Main_G5_22352 {
 					else {
 						if(after[r][c] != num) {
 							System.out.println("NO");
-							System.out.println("here2");
 							return;
 						}
 					}
