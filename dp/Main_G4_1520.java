@@ -1,19 +1,16 @@
-package boj.Gold;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main_G4_1520 {
+public class Main {
 	static int N, M, map[][], dp[][];
 	static int[][] delta = {{-1,0},{1,0},{0,-1},{0,1}};
 	static boolean[][] visited;
 	
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		br = new BufferedReader(new StringReader(src));
 		
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		M = Integer.parseInt(st.nextToken());		// 세로 크기
@@ -36,14 +33,6 @@ public class Main_G4_1520 {
 		
 		visited[0][0] = true;
 		System.out.println(dfs(0,0));
-		
-		for(int m=0; m<M; m++) {
-			for(int n=0; n<N; n++) {
-				System.out.print(dp[m][n] + " ");
-			}
-			System.out.println();
-		}
-		System.out.println();
 	}
 	
 	private static int dfs(int r, int c) {
