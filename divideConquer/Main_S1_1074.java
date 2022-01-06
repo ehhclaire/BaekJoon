@@ -2,7 +2,7 @@ import java.io.StringReader;
 import java.util.Scanner;
 
 public class Main {
-	static int R, C, idx, answer;
+	static int R, C, answer;
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -11,7 +11,6 @@ public class Main {
 		int N = sc.nextInt();
 		R = sc.nextInt();
 		C = sc.nextInt();
-		idx = 0;
 		answer = 0;
 		
 		int size = (int) Math.pow(2, N);
