@@ -16,6 +16,6 @@ BaekJoon Algorithm Solutions
 | 17609 | [회문](https://github.com/HSungHee/BaekJoon/blob/main/String/Main_S1_17609.java) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |
 | 2608 | [로마 숫자](https://github.com/HSungHee/BaekJoon/blob/main/String/Main_S1_2608.java) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |
 | 1764 | [듣보잡](https://github.com/HSungHee/BaekJoon/blob/main/String/Main_S4_1764.java) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> |
-| 1316 | [그룹 단어 체커](https://github.com/HSungHee/BaekJoon/blob/main/String/Main_S5_1316.java) | | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> |
+| 1316 | [그룹 단어 체커](https://github.com/HSungHee/BaekJoon/blob/main/String/Main_S5_1316.java) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> |
 | 2204 | [도비의 난독증 테스트](https://github.com/HSungHee/BaekJoon/blob/main/String/Main_S5_2204.java) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> |
 | 2941 | [크로아티아 알파벳](https://github.com/HSungHee/BaekJoon/blob/main/String/Main_S5_2941.java) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> |
