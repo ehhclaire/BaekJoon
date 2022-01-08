@@ -15,4 +15,4 @@ BaekJoon Algorithm Solutions
 | 00 | Greedy | [그리디(탐욕) 알고리즘](https://github.com/HSungHee/BaekJoon/tree/main/greedy) | 8 |
 | 00 | Math | [수학](https://github.com/HSungHee/BaekJoon/tree/main/math) | 3 | 
 | 00 | Simulation | [구현](https://github.com/HSungHee/BaekJoon/tree/main/%EA%B5%AC%ED%98%84) | 21 |
-| 00 | Permutation & Combination & Subset | [순조부(순열 & 조합 & 부분집합)](https://github.com/HSungHee/BaekJoon/tree/main/%EC%88%9C%EC%A1%B0%EB%B6%80(%EC%88%9C%EC%97%B4_%EC%A1%B0%ED%95%A9_%EB%B6%80%EB%B6%84%EC%A7%91%ED%95%A9)) | 12 |
+| 00 | Permutation&Combination&Subset | [순조부(순열&조합&부분집합)](https://github.com/HSungHee/BaekJoon/tree/main/%EC%88%9C%EC%A1%B0%EB%B6%80(%EC%88%9C%EC%97%B4_%EC%A1%B0%ED%95%A9_%EB%B6%80%EB%B6%84%EC%A7%91%ED%95%A9)) | 12 |
