@@ -1,5 +1,6 @@
 # BaekJoon
-BaekJoon Algorithm Solutions
+알고리즘별 풀이 코드 
+
 
 ## 알고리즘 분류
 | 순번 | Algorithm | 알고리즘 | 문제수 |
